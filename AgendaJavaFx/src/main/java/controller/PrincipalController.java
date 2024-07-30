@@ -143,8 +143,8 @@ public class PrincipalController implements Initializable {
 
     @FXML
     private void txtFiltroOnKeyTyped(KeyEvent event) throws Exception {
-       carregarContatos(txtFiltro.getText());
-
+       carregarContatos(txtFiltro.getText()); 
+       
     }
 
 }
