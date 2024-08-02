@@ -19,9 +19,8 @@ public class Turma {
     public Turma() {
     }
 
-    public Turma(String nome, List<Aluno> alunos) {
+    public Turma(String nome) {
         this.nome = nome;
-        this.alunos = alunos;
     }
 
     public int getId() {
